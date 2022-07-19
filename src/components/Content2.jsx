@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react'
 
-const Content = () => {
-	return (
+const Content2 = () => {
+  return (
 		<div className="w3-col l8 s12">
 			<div class="w3-card-4 w3-margin w3-white">
 				<img
 					className="img"
-					src="https://www.w3schools.com/w3images/woods.jpg"
+					src="https://www.w3schools.com/w3images/bridge.jpg"
 					alt=""
 				/>
 				<div class="w3-container">
 					<h3>
-						<b>TITLE HEADING</b>
+						<b>BLOG ENTRY</b>
 					</h3>
 					<h5>
-						Title description, <span class="w3-opacity">April 7, 2014</span>
+						Title description, <span class="w3-opacity">April 2, 2014</span>
 					</h5>
 				</div>
 
@@ -38,16 +38,15 @@ const Content = () => {
 						<div class="w3-col m4 w3-hide-small">
 							<p>
 								<span class="w3-padding-large w3-right">
-									<b>Comments</b> <span class="w3-tag">0</span>
+									<b>Comments</b> <span class="w3-badge">2</span>
 								</span>
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<hr />
 		</div>
 	);
-};
+}
 
-export default Content;
+export default Content2
