@@ -1,18 +1,15 @@
 import React from 'react'
-import Header from './components/Header'
-import Content from './components/Content';
-import Foter from './components/Foter';
-import './App.css'
-
+import Task1 from './components/Task1'
+import Task2 from './components/Task2';
+import Task3 from './components/Task3';
 
 const App = () => {
   return (
      <div>
-        <Header />
-        <Content />
-        <Foter/>
-     </div>
-     
+        <Task1 />
+        <Task2 />
+        <Task3/>
+    </div>
   )
 }
 
